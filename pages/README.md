@@ -1,16 +1,20 @@
-# pages
+# Flutter Navigation Project
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This Flutter project demonstrates a simple navigation setup between multiple pages in a Flutter application. It includes three pages: Home, Second, and Third. The project shows how to pass data between pages and navigate back to previous pages using Flutter's navigation system.
 
-This project is a starting point for a Flutter application.
+## File Structure
 
-A few resources to get you started if this is your first Flutter project:
+- `main.dart`: Entry point of the application.
+- `Student.dart`: Defines the `Student` class used for passing data between pages.
+- `pages/`
+  - `page1.dart`: Contains the `Home` page.
+  - `page2.dart`: Contains the `Second` page.
+  - `page3.dart`: Contains the `Third` page.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Pages
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Home Page
+
+The `Home` page is the entry point of the application. It contains two buttons to navigate to the `Second` and `Third` pages, respectively.
